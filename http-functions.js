@@ -9,7 +9,7 @@ module.exports = function getHTML (options, callbacks){
 
     response.on("data", function(data){
       buffer += data.toString();
-      printHTML(buffer);
+      callbacks(buffer);
     })
 
     response.on("end", function(){
