@@ -9,7 +9,7 @@ var requestOptions = {
 };
 
 function printLowercase(html){
-  return getHTML.toLowerCase();
+  return html.toLowerCase();
 }
 
 getHTML(requestOptions, printLowercase);

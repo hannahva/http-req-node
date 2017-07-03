@@ -9,7 +9,7 @@ var requestOptions = {
 };
 
 function printReverse(html){
-  return getHTML.reverse();
+  return html.reverse();
 }
 
 getHTML(requestOptions, printReverse);

@@ -10,7 +10,7 @@ var requestOptions = {
 };
 
 function printUppercase(html){
-  return getHTML.toUpperCase();
+  return html.toUpperCase();
 }
 
 getHTML(requestOptions, printUppercase);
